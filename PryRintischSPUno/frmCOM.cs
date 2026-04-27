@@ -10,25 +10,18 @@ using System.Windows.Forms;
 
 namespace PryRintischSPUno
 {
-    public partial class frmUno : Form
+    public partial class frmCOM : Form
     {
-        public frmUno()
+        public frmCOM()
         {
             InitializeComponent();
         }
 
-        private void frmUno_Load(object sender, EventArgs e)
+        private void btnVolver_Click(object sender, EventArgs e)
         {
-            btnIniciar.Focus();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
-            this.Hide();
             frmDos frmDos = new frmDos();
+            this.Hide();
             frmDos.Show();
-
         }
     }
 }

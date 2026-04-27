@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>images.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,16 +49,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmADM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmADM.Designer.cs">
+      <DependentUpon>frmADM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCOM.Designer.cs">
+      <DependentUpon>frmCOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDos.Designer.cs">
+      <DependentUpon>frmDos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUno.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmUno.Designer.cs">
       <DependentUpon>frmUno.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmVTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVTA.Designer.cs">
+      <DependentUpon>frmVTA.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmADM.resx">
+      <DependentUpon>frmADM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCOM.resx">
+      <DependentUpon>frmCOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDos.resx">
+      <DependentUpon>frmDos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmUno.resx">
       <DependentUpon>frmUno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVTA.resx">
+      <DependentUpon>frmVTA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +104,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +118,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images.ico" />
+    <None Include="Resources\Gemini_Generated_Image_tq2j9ztq2j9ztq2j.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
