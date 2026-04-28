@@ -200,16 +200,17 @@ namespace PryRintischSPUno
             }
             else
             {
+                if (txtUsuario.Text != "" && txtContraseña.Text != "")
+                {
+                    intentosFallidos++;
 
-                intentosFallidos++;
+                    MessageBox.Show("Usuario y/o Contraseña Incorrectos para el modulo seleccionado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                MessageBox.Show("Usuario y/o Contraseña Incorrectos para el modulo seleccionado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                txtUsuario.Clear();
-                txtContraseña.Clear();
-                cmbModulo.SelectedIndex = -1;
-                txtUsuario.Focus();
-
+                    txtUsuario.Clear();
+                    txtContraseña.Clear();
+                    cmbModulo.SelectedIndex = -1;
+                    txtUsuario.Focus();
+                }               
                 if (intentosFallidos >= 2)
                 {
                     MessageBox.Show("Demasiados intentos fallidos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);

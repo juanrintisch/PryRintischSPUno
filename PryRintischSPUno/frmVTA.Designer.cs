@@ -52,9 +52,9 @@
             this.lblHola.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHola.Location = new System.Drawing.Point(76, 34);
             this.lblHola.Name = "lblHola";
-            this.lblHola.Size = new System.Drawing.Size(124, 26);
+            this.lblHola.Size = new System.Drawing.Size(137, 26);
             this.lblHola.TabIndex = 1;
-            this.lblHola.Text = "         Hola :D\r\nBienvenido a Ventas";
+            this.lblHola.Text = "           Hola :D\r\nBienvenido/a a Ventas";
             // 
             // frmVTA
             // 
