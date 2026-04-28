@@ -53,9 +53,9 @@
             this.lblHola.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHola.Location = new System.Drawing.Point(87, 48);
             this.lblHola.Name = "lblHola";
-            this.lblHola.Size = new System.Drawing.Size(121, 26);
+            this.lblHola.Size = new System.Drawing.Size(169, 26);
             this.lblHola.TabIndex = 1;
-            this.lblHola.Text = "        Hola :D\r\nBienvenido/a Admin";
+            this.lblHola.Text = "             Hola :D\r\nBienvenido/a Administracion";
             // 
             // frmADM
             // 

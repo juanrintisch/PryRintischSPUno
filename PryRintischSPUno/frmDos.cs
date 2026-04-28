@@ -219,9 +219,7 @@ namespace PryRintischSPUno
                 }
 
             }
-            frmUsuarios frmUsuarios = new frmUsuarios();
-            frmUsuarios.Hide();
-
+           
         }
 
         private void btnClaves_Click(object sender, EventArgs e)
