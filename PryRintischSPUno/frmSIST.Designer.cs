@@ -30,33 +30,52 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSIST));
             this.btnVolver = new System.Windows.Forms.Button();
+            this.lblHola = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(161, 110);
+            this.btnVolver.BackColor = System.Drawing.Color.LightCoral;
+            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(105, 87);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 0;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Text = "Cerrar";
+            this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // lblHola
+            // 
+            this.lblHola.AutoSize = true;
+            this.lblHola.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHola.Location = new System.Drawing.Point(79, 49);
+            this.lblHola.Name = "lblHola";
+            this.lblHola.Size = new System.Drawing.Size(129, 26);
+            this.lblHola.TabIndex = 1;
+            this.lblHola.Text = "         Hola :D\r\nBienvenido a Sitemas\r\n";
             // 
             // frmSIST
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(299, 144);
+            this.Controls.Add(this.lblHola);
             this.Controls.Add(this.btnVolver);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmSIST";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sintepart SRL - Sistemas";
+            this.Load += new System.EventHandler(this.frmSIST_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.Label lblHola;
     }
 }

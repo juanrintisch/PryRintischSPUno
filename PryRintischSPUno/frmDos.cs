@@ -27,9 +27,11 @@ namespace PryRintischSPUno
 
         }
 
+        private int intentosFallidos = 0;
+
         private void frmDos_Load(object sender, EventArgs e)
         {
-
+            intentosFallidos = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -198,13 +200,34 @@ namespace PryRintischSPUno
             }
             else
             {
-                
+
+                intentosFallidos++;
+
                 MessageBox.Show("Usuario y/o Contraseña Incorrectos para el modulo seleccionado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                 txtUsuario.Clear();
                 txtContraseña.Clear();
+                cmbModulo.SelectedIndex = -1;
                 txtUsuario.Focus();
 
+                if (intentosFallidos >= 2)
+                {
+                    MessageBox.Show("Demasiados intentos fallidos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    this.Hide();
+                    frmUno frmUno = new frmUno();
+                    frmUno.Show();
+                }
+
             }
+            frmUsuarios frmUsuarios = new frmUsuarios();
+            frmUsuarios.Hide();
+
+        }
+
+        private void btnClaves_Click(object sender, EventArgs e)
+        {
+            frmUsuarios frmUisarios = new frmUsuarios();
+            frmUisarios.Show();
         }
     }
 }

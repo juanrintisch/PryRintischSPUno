@@ -37,6 +37,7 @@
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnClaves = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblUsuario
@@ -73,6 +74,7 @@
             // 
             // cmbModulo
             // 
+            this.cmbModulo.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbModulo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbModulo.FormattingEnabled = true;
             this.cmbModulo.Items.AddRange(new object[] {
@@ -88,6 +90,7 @@
             // 
             // txtUsuario
             // 
+            this.txtUsuario.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtUsuario.ForeColor = System.Drawing.Color.Blue;
             this.txtUsuario.Location = new System.Drawing.Point(88, 32);
             this.txtUsuario.MaxLength = 10;
@@ -98,6 +101,7 @@
             // 
             // txtContraseña
             // 
+            this.txtContraseña.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtContraseña.Location = new System.Drawing.Point(88, 75);
             this.txtContraseña.MaxLength = 10;
             this.txtContraseña.Name = "txtContraseña";
@@ -132,11 +136,23 @@
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btnClaves
+            // 
+            this.btnClaves.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClaves.Location = new System.Drawing.Point(294, 145);
+            this.btnClaves.Name = "btnClaves";
+            this.btnClaves.Size = new System.Drawing.Size(34, 23);
+            this.btnClaves.TabIndex = 5;
+            this.btnClaves.Text = "???";
+            this.btnClaves.UseVisualStyleBackColor = true;
+            this.btnClaves.Click += new System.EventHandler(this.btnClaves_Click);
+            // 
             // frmDos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(340, 174);
+            this.Controls.Add(this.btnClaves);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtContraseña);
@@ -165,5 +181,6 @@
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnClaves;
     }
 }
