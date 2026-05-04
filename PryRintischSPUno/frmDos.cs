@@ -157,7 +157,7 @@ namespace PryRintischSPUno
             else if (txtUsuario.Text == "God" && txtContraseña.Text == "@#4d" && cmbModulo.SelectedIndex == 0)
             {
                 
-                DialogResult result = MessageBox.Show("Bienvenido Sr.Dios" + "\n" + "Amèn", "Sintepart SRL", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                DialogResult result = MessageBox.Show("Bienvenido Sr.Dios", "Sintepart SRL", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
                 frmADM frmADM = new frmADM();
                 frmADM.Show();
@@ -168,7 +168,7 @@ namespace PryRintischSPUno
             else if (txtUsuario.Text == "God" && txtContraseña.Text == "@#4d" && cmbModulo.SelectedIndex == 1)
             {
                 
-                DialogResult result = MessageBox.Show("Bienvenido Sr.Dios" + "\n" + "Amèn", "Sintepart SRL", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                DialogResult result = MessageBox.Show("Bienvenido Sr.Dios", "Sintepart SRL", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
                 frmSIST frmSIST = new frmSIST();
                 frmSIST.Show();
@@ -179,7 +179,7 @@ namespace PryRintischSPUno
             else if (txtUsuario.Text == "God" && txtContraseña.Text == "@#4d" && cmbModulo.SelectedIndex == 2)
             {
                 
-                DialogResult result = MessageBox.Show("Bienvenido Sr.Dios" + "\n" + "Amèn", "Sintepart SRL", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                DialogResult result = MessageBox.Show("Bienvenido Sr.Dios", "Sintepart SRL", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
                 frmCOM frmCOM = new frmCOM();
                 frmCOM.Show();
@@ -190,7 +190,7 @@ namespace PryRintischSPUno
             else if (txtUsuario.Text == "God" && txtContraseña.Text == "@#4d" && cmbModulo.SelectedIndex == 3)
             {
                 
-                DialogResult result = MessageBox.Show("Bienvenido Sr.Dios" + "\n" + "Amèn", "Sintepart SRL", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                DialogResult result = MessageBox.Show("Bienvenido Sr.Dios", "Sintepart SRL", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
                 frmVTA frmVTA = new frmVTA();
                 frmVTA.Show();
