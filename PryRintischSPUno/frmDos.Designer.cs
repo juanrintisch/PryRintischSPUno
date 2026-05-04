@@ -164,7 +164,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmDos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Sintepart SRL";
+            this.Text = "+";
             this.Load += new System.EventHandler(this.frmDos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
