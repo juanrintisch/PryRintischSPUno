@@ -139,6 +139,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images.ico" />
+    <None Include="Resources\xocas.jpg" />
+    <None Include="Resources\istockphoto-495483804-612x612.jpg" />
+    <None Include="Resources\68822e6dd0a1ee9fd03b57b7_concepto-de-compras-digitales.jpg" />
+    <None Include="Resources\images.jpg" />
     <None Include="Resources\Gemini_Generated_Image_tq2j9ztq2j9ztq2j.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCOM));
             this.btnVolver = new System.Windows.Forms.Button();
-            this.lblHola = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnVolver
@@ -38,7 +37,7 @@
             this.btnVolver.BackColor = System.Drawing.Color.LightCoral;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(97, 76);
+            this.btnVolver.Location = new System.Drawing.Point(355, 286);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 0;
@@ -46,22 +45,13 @@
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // lblHola
-            // 
-            this.lblHola.AutoSize = true;
-            this.lblHola.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHola.Location = new System.Drawing.Point(63, 26);
-            this.lblHola.Name = "lblHola";
-            this.lblHola.Size = new System.Drawing.Size(166, 26);
-            this.lblHola.TabIndex = 1;
-            this.lblHola.Text = "             Hola :D\r\nBienvenido/a a las Compras";
-            // 
             // frmCOM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(274, 127);
-            this.Controls.Add(this.lblHola);
+            this.BackgroundImage = global::PryRintischSPUno.Properties.Resources._68822e6dd0a1ee9fd03b57b7_concepto_de_compras_digitales;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(442, 321);
             this.Controls.Add(this.btnVolver);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCOM";
@@ -69,13 +59,11 @@
             this.Text = "Sintepart SRL - Compras";
             this.Load += new System.EventHandler(this.frmCOM_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnVolver;
-        private System.Windows.Forms.Label lblHola;
     }
 }

@@ -63,9 +63,49 @@ namespace PryRintischSPUno.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _68822e6dd0a1ee9fd03b57b7_concepto_de_compras_digitales {
+            get {
+                object obj = ResourceManager.GetObject("68822e6dd0a1ee9fd03b57b7_concepto-de-compras-digitales", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gemini_Generated_Image_tq2j9ztq2j9ztq2j {
             get {
                 object obj = ResourceManager.GetObject("Gemini_Generated_Image_tq2j9ztq2j9ztq2j", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_495483804_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-495483804-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xocas {
+            get {
+                object obj = ResourceManager.GetObject("xocas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
